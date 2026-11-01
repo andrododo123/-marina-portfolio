@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marina Nady Gerges | Content Creator Portfolio</title>
+<meta name="description" content="Portfolio of Marina Nady Gerges: content creator, social media strategist and AI visual content. Selected work for clinics, cosmetics, F&amp;B and more.">
+<meta name="theme-color" content="#121315">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Marina Nady Gerges | Content Creator">
+<meta property="og:description" content="Portfolio: content creation, social media, graphic design and AI visual content.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one long dark page, giant condensed headings with ghost echoes, rounded image tiles, outlined pills like the PDF's table of contents. */
+:root{
+  --bg:#121315; --bg2:#1a1b1e; --ink:#f4f4f2; --mute:#a9a9ad; --line:rgba(255,255,255,.14);
+  --gold:#f7d548; --ghost:rgba(255,255,255,.055);
+  --display:'Anton','Impact','Arial Narrow',sans-serif; --body:'Poppins','Segoe UI',system-ui,sans-serif;
+  --r:22px; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;
+  background-image:radial-gradient(1200px 700px at 78% -8%,rgba(255,255,255,.07),transparent 60%),radial-gradient(900px 600px at 5% 40%,rgba(255,255,255,.035),transparent 60%);
+  background-attachment:fixed;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(56px,9vw,120px);position:relative;overflow-x:clip}
+.shead{overflow-x:clip}
+.gold{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* nav */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(18,19,21,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font-family:var(--display);font-size:22px;letter-spacing:.02em;text-decoration:none;white-space:nowrap}
+.pills{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-left:auto;min-width:0}
+.pills::-webkit-scrollbar{display:none}
+.pill{border:1.5px solid var(--ink);border-radius:99px;padding:5px 15px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s}
+.pill:hover{background:var(--ink);color:var(--bg)}
+
+/* hero */
+.hero{padding-block:clamp(24px,4vw,48px) 0;overflow:hidden}
+.hero .wrap{position:relative}
+.hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.hero-top .t{font-family:var(--display);font-size:clamp(34px,6vw,64px);line-height:1;letter-spacing:.02em}
+.hero-top .r{text-align:right;font-size:clamp(11px,1.4vw,14px);font-weight:500;text-transform:uppercase;letter-spacing:.04em;line-height:1.5}
+.hero-top .r b{display:block;color:var(--gold);font-weight:700}
+.stage{position:relative;margin-top:clamp(-10px,-1vw,0px);display:grid;place-items:end center;min-height:clamp(340px,52vw,640px)}
+.big{position:absolute;left:0;right:0;bottom:clamp(8px,2vw,28px);margin:0;font-family:var(--display);font-weight:400;text-transform:uppercase;
+  font-size:min(17vw,245px);line-height:.9;display:flex;justify-content:space-between;white-space:nowrap;z-index:1}
+.portrait{position:relative;z-index:2;height:clamp(340px,52vw,640px);width:auto;-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.hero-meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;padding-block:28px 0}
+
+/* headings */
+.shead{position:relative;margin-bottom:clamp(24px,4vw,44px);min-height:1em}
+.shead h2{position:relative;margin:0;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(46px,9vw,128px);line-height:.95;letter-spacing:.005em;text-wrap:balance}
+.shead h2 em{font-style:normal;color:var(--gold)}
+.ghost{position:absolute;left:0;top:34%;font-family:var(--display);text-transform:uppercase;font-size:clamp(46px,9vw,128px);line-height:.95;color:var(--ghost);white-space:nowrap;pointer-events:none;user-select:none}
+h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(34px,5.2vw,68px);line-height:1;margin:0 0 14px;letter-spacing:.005em;text-wrap:balance}
+h3 em{font-style:normal;color:var(--gold)}
+h4{margin:0 0 12px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(24px,3vw,38px);line-height:1.05}
+.lead{max-width:62ch;margin:0;font-size:clamp(15px,1.5vw,18px)}
+.lead b{color:var(--gold);font-weight:500}
+.label{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+
+/* intro */
+.intro{display:flex;flex-direction:column;gap:clamp(28px,5vw,60px)}
+.intro .shead{margin:0}
+.intro .shead h2{font-size:clamp(56px,13vw,200px)}
+.intro .lead{max-width:70ch}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:start}
+.about .lead{margin-bottom:34px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.cols ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:12.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.cols li{display:flex;gap:9px;line-height:1.35}
+.cols li::before{content:"";flex:none;width:5px;height:5px;margin-top:.5em;border-radius:50%;background:var(--gold)}
+.stat{border:1.5px solid var(--line);border-radius:var(--r);padding:clamp(22px,3vw,36px);display:grid;gap:4px;background:rgba(255,255,255,.025)}
+.stat b{font-family:var(--display);font-weight:400;font-size:clamp(80px,12vw,170px);line-height:.9;color:var(--gold)}
+.stat span{font-size:14px;color:var(--mute);max-width:30ch}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(22px,3vw,40px) clamp(20px,4vw,56px)}
+.skill .tag{display:block;border:1.5px solid var(--ink);border-radius:99px;padding:9px 20px;font-size:clamp(13px,1.4vw,16px);font-weight:500;text-transform:uppercase;text-align:center;margin-bottom:12px}
+.skill p{margin:0;color:var(--mute);font-size:13.5px;padding-inline:8px}
+
+/* portfolio intro */
+.pp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.7fr);gap:32px;align-items:end}
+.pp .shead{margin:0}
+.pp .shead h2{font-size:clamp(60px,11vw,170px)}
+
+/* project blocks */
+.block{margin-top:clamp(56px,8vw,110px)}
+.sub{margin:clamp(30px,4vw,52px) 0 16px;display:flex;align-items:center;gap:14px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.sub::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;gap:clamp(10px,1.6vw,20px);grid-template-columns:repeat(4,minmax(0,1fr));align-items:start}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.masonry{columns:4;column-gap:clamp(10px,1.6vw,20px)}
+.masonry .ph{margin-bottom:clamp(10px,1.6vw,20px);break-inside:avoid}
+.ph{display:block;width:100%;padding:0;border:0;background:#222;border-radius:var(--r);overflow:hidden;cursor:zoom-in;position:relative;
+  box-shadow:0 14px 34px rgba(0,0,0,.35)}
+.ph img{width:100%;height:auto;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.ph:hover img{transform:scale(1.04)}
+.ph.frame{border-radius:28px}
+.vi{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(16px,3vw,48px);align-items:center}
+.vi .vt{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--display);text-transform:uppercase;font-size:clamp(46px,8vw,120px);line-height:.95;margin:0;font-weight:400;position:relative}
+.vi .vt::after{content:attr(data-t);position:absolute;inset:0;transform:translateX(-5%);opacity:.18;filter:blur(.3px)}
+.vi .ph{max-width:560px;margin-inline:auto}
+.concept{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.55fr);gap:clamp(20px,4vw,60px);align-items:center;margin-bottom:28px}
+.concept p{margin:0;font-size:clamp(15px,1.6vw,19px);font-weight:500;max-width:48ch}
+.concept .ph{max-width:380px;justify-self:center;border:5px solid #fff;border-radius:34px}
+.links{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.lnk{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;align-items:center;border:1.5px solid var(--line);border-radius:18px;padding:14px 18px;text-decoration:none;transition:border-color .2s,background .2s}
+.lnk:hover{border-color:var(--gold);background:rgba(247,213,72,.06)}
+.lk-l{font-size:14px;font-weight:600}
+.lk-u{grid-column:1;font-size:12px;color:var(--mute);overflow-wrap:anywhere}
+.lnk i{grid-row:1/3;grid-column:2;font-style:normal;color:var(--gold);font-size:20px}
+.note{margin:0 0 14px;color:var(--gold);font-size:14px;font-weight:500}
+.phones .ph{border-radius:20px}
+.wide{max-width:900px}
+
+/* AI */
+.ai-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.5fr);gap:clamp(20px,4vw,56px);align-items:center}
+.ai-intro .shead{margin-bottom:18px}
+.ai-intro .shead h2{font-size:clamp(60px,11vw,170px)}
+.ai-intro .tl{font-size:clamp(18px,2vw,26px);text-transform:uppercase;margin:0 0 8px;font-weight:400}
+.ai-intro .ph{max-width:340px;justify-self:center;border-radius:40px}
+.ai{margin-top:clamp(56px,8vw,110px);display:grid;gap:clamp(22px,3vw,40px)}
+.ai-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,4vw,56px);align-items:center}
+.ai-copy p{margin:0;max-width:44ch;font-size:14.5px;color:var(--mute)}
+.ai-heroes{display:grid;gap:14px;grid-template-columns:1fr}
+.ai-heroes .ph{border-radius:28px}
+.ai-heroes.two{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:center}
+.ai-bottom{display:grid;grid-template-columns:minmax(0,.4fr) minmax(0,1fr);gap:clamp(20px,4vw,48px);align-items:start}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--ink);border-radius:99px;padding:6px 16px;font-size:12px;font-weight:600;text-decoration:none;transition:background .2s,color .2s}
+.chip:hover{background:var(--gold);border-color:var(--gold);color:#111}
+.ai .grid .ph{border-radius:20px}
+
+/* clients */
+.clients{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.cl{display:grid;gap:4px;border:1.5px solid var(--line);border-radius:var(--r);padding:20px 22px;text-decoration:none;transition:border-color .2s,background .2s}
+.cl:hover{border-color:var(--gold);background:rgba(247,213,72,.05)}
+.cl b{color:var(--gold);font-size:15px;font-weight:600}
+.cl span{font-size:13px;color:var(--ink)}
+.cl small{font-size:12px;color:var(--mute);overflow-wrap:anywhere}
+
+/* contact */
+.contact{min-height:clamp(380px,50vw,560px);display:flex;flex-direction:column;justify-content:space-between;gap:48px}
+.contact .shead h2{font-size:clamp(70px,14vw,210px)}
+.cdet{align-self:flex-end;text-align:right;display:grid;gap:22px}
+.cdet div b{display:block;font-size:clamp(16px,1.8vw,22px);font-weight:700}
+.cdet div span{font-size:clamp(16px,2vw,26px);font-weight:400;overflow-wrap:anywhere;user-select:all}
+.copy{margin-top:6px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:99px;padding:4px 14px;font:600 11px var(--body);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.copy:hover{background:var(--ink);color:var(--bg)}
+.thanks{text-align:center;padding-block:clamp(70px,10vw,140px) 56px;border-top:1px solid var(--line)}
+.thanks h2{margin:0 0 20px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(70px,16vw,240px);line-height:.9}
+.thanks p{margin:0 auto;max-width:56ch;font-size:clamp(13px,1.3vw,15px);color:var(--mute)}
+.foot{padding-block:22px 40px;text-align:center;font-size:12px;color:var(--mute)}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,8,9,.94);display:none;place-items:center;padding:20px}
+.lb.on{display:grid}
+.lb img{max-height:calc(100vh - 40px);max-width:100%;border-radius:14px;object-fit:contain}
+.lb button{position:absolute;border:1.5px solid var(--ink);background:rgba(18,19,21,.7);color:var(--ink);width:46px;height:46px;border-radius:50%;font-size:20px;cursor:pointer}
+.lb .x{top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px))}
+.lb .p{left:max(10px,env(safe-area-inset-left,0px));top:50%}
+.lb .n{right:max(10px,env(safe-area-inset-right,0px));top:50%}
+
+@media(max-width:900px){
+  .masonry{columns:3} .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .about,.pp,.ai-intro,.ai-top,.ai-bottom,.concept{grid-template-columns:minmax(0,1fr)}
+  .ai-intro .ph{justify-self:start}
+  .pills{display:none} .nav .wrap{justify-content:space-between}
+}
+@media(max-width:620px){
+  .masonry{columns:2} .grid,.g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .skills,.clients,.cols{grid-template-columns:minmax(0,1fr)}
+  .hero-top .r{text-align:left}
+  .cdet{align-self:flex-start;text-align:left}
+  .lb .p,.lb .n{top:auto;bottom:max(16px,env(safe-area-inset-bottom,0px))}
+  .g3.keep3{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ph img{transition:none}}
+</style>
+</head>
+<body>
+
+
+<nav class="nav"><div class="wrap">
+<a class="brand" href="#home">MARINA NADY</a>
+<div class="pills">
+<a class="pill" href="#intro">Introduction</a><a class="pill" href="#about">About me</a><a class="pill" href="#skills">Personal skills</a>
+<a class="pill" href="#portfolio">Project portfolio</a><a class="pill" href="#graphic">Graphic designs</a><a class="pill" href="#ai">AI visual content</a>
+<a class="pill" href="#clients">Content projects</a><a class="pill" href="#contact">Contact</a>
+</div></div></nav>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="hero-top"><div class="t">PORTFOLIO</div><div class="r">Marina Nady Gerges<b>Content Creator</b></div></div>
+<div class="stage">
+<h1 class="big" data-t="MARINA NADY"><span>MARINA</span><span>NADY</span></h1>
+<img class="portrait" src="img/portrait.webp" alt="Marina Nady Gerges">
+</div>
+</div></section>
+
+<section id="intro"><div class="wrap intro">
+<p class="lead">Creative Content Creator specializing in impactful storytelling and audience engagement. My core expertise is <b>content creation</b>, supported by a strong foundation in <b>graphic design</b>, <b>video editing</b>, and full-scope digital marketing. I also integrate <b>AI-powered solutions</b> — from concept generation and visual design to content optimization — to deliver innovative, high-performing campaigns that blend creativity, technology, and measurable results.</p>
+<header class="shead"><span class="ghost" aria-hidden="true">Marina Nady Gerges</span><h2>Introduction</h2></header>
+</div></section>
+
+<section id="about"><div class="wrap">
+<div class="about"><div>
+<header class="shead"><span class="ghost" aria-hidden="true">Marina Nady Gerges</span><h2 style="text-transform:none;font-family:var(--body);font-weight:700;font-size:clamp(40px,6vw,76px);letter-spacing:-.01em">About Me</h2></header>
+<p class="lead">My name is Marina Nady Gerges, a Business Administration graduate from the Faculty of Commerce (English Section) with an overall grade Very Good. I have over <b>6 years of experience</b> in digital marketing field, working as a freelancer and specializing in content creation, social media management, and creative digital solutions.</p>
+<div class="cols">
+<div><p class="label">Industries</p><ul><li>Fashion &amp; Beauty</li><li>Food &amp; Beverage</li><li>Medical / Clinics</li><li>Real Estate</li><li>Education</li><li>Cafés &amp; Restaurants</li><li>Personal Branding</li></ul></div>
+<div><p class="label">Expertise</p><ul><li>Social media content creation &amp; strategy</li><li>Copywriting &amp; caption writing</li><li>Reels &amp; short-form video concepts</li><li>Branding &amp; engagement-driven content</li></ul></div>
+</div></div>
+<div class="stat"><b>6+</b><span>years in digital marketing, working as a freelancer</span></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<div class="skills">
+<div class="skill"><span class="tag">Creativety, Storytelling</span><p>Skilled at transforming ideas into compelling content that captures attention and builds emotional connections with audience</p></div>
+<div class="skill"><span class="tag">Basic Grapghic Design Skills</span><p>Capable of producing clean, visually appealing designs that align with brand identity and campaign objectives.</p></div>
+<div class="skill"><span class="tag">AI-Powered Tools Utilization</span><p>Experienced in leveraging AI technologies to enhance content creation, streamline design, and optimize marketing strategies</p></div>
+<div class="skill"><span class="tag">Basic Editing Skills</span><p>Able to edit visuals and videos to deliver polished, engaging content suitable for various digital platforms.</p></div>
+</div>
+<div style="margin-top:clamp(36px,6vw,80px)"><header class="shead"><span class="ghost" aria-hidden="true">Personal Skills</span><h2>Personal Skills</h2></header></div>
+</div></section>
+
+<section id="portfolio"><div class="wrap">
+<div class="pp">
+<header class="shead"><span class="ghost" aria-hidden="true">Portfolio</span><h2>Project<br>Portfolio</h2></header>
+<p class="lead">This section showcases a selection of my work, handled entirely from A to Z — starting from the initial idea and concept development, through content creation, design, and editing, all the way to execution and delivery.</p>
+</div>
+
+<div class="block" id="graphic">
+<header class="shead"><span class="ghost" aria-hidden="true">Graphic Designs</span><h2>Visuals</h2></header>
+<p class="sub">Social media designs</p>
+<div class="masonry"><button class="ph " type="button" data-full="img/p07-013.webp"><img src="img/p07-013.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-014.webp"><img src="img/p07-014.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-015.webp"><img src="img/p07-015.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-016.webp"><img src="img/p07-016.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-017.webp"><img src="img/p07-017.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-018.webp"><img src="img/p07-018.webp" alt="Social media design" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p07-019.webp"><img src="img/p07-019.webp" alt="Social media design" loading="lazy" decoding="async"></button></div>
+
+<p class="sub">Visual identity</p>
+<div class="vi"><h3 class="vt" data-t="Visual Identity">Visual Identity</h3><button class="ph frame" type="button" data-full="img/p08-021.webp"><img src="img/p08-021.webp" alt="iDent dental clinic visual identity" loading="lazy" decoding="async"></button></div>
+
+<p class="sub">Social media designs · iDent Dental Clinic</p>
+<div class="grid"><button class="ph " type="button" data-full="img/p09-023.webp"><img src="img/p09-023.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-024.webp"><img src="img/p09-024.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-025.webp"><img src="img/p09-025.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-026.webp"><img src="img/p09-026.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-027.webp"><img src="img/p09-027.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-028.webp"><img src="img/p09-028.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-029.webp"><img src="img/p09-029.webp" alt="iDent social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p09-030.webp"><img src="img/p09-030.webp" alt="iDent social media post" loading="lazy" decoding="async"></button></div>
+<p class="sub">Social media designs · Mo’men Dental Office</p>
+<div class="masonry"><button class="ph " type="button" data-full="img/p10-032.webp"><img src="img/p10-032.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-033.webp"><img src="img/p10-033.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-034.webp"><img src="img/p10-034.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-035.webp"><img src="img/p10-035.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-036.webp"><img src="img/p10-036.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-037.webp"><img src="img/p10-037.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-038.webp"><img src="img/p10-038.webp" alt="Social media post" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p10-039.webp"><img src="img/p10-039.webp" alt="Social media post" loading="lazy" decoding="async"></button></div>
+</div>
+
+<div class="block">
+<div class="concept"><div><h3>Concept &amp; Art Direction<br>for <em>Dental Clinic</em></h3><p>Concept Development &amp; Visual Direction. I developed the campaign idea, wrote the story flow for each reel, and translated it into visual boards to guide the shoot and production.</p></div><button class="ph frame" type="button" data-full="img/p11-041.webp"><img src="img/p11-041.webp" alt="Campaign concept document cover" loading="lazy" decoding="async"></button></div>
+<div class="grid g3 keep3"><button class="ph frame" type="button" data-full="img/p12-043.webp"><img src="img/p12-043.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p12-044.webp"><img src="img/p12-044.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p12-045.webp"><img src="img/p12-045.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p13-047.webp"><img src="img/p13-047.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p13-048.webp"><img src="img/p13-048.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p13-049.webp"><img src="img/p13-049.webp" alt="Concept document page" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p14-051.webp"><img src="img/p14-051.webp" alt="Reel visual board" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p14-052.webp"><img src="img/p14-052.webp" alt="Reel visual board" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p14-053.webp"><img src="img/p14-053.webp" alt="Reel visual board" loading="lazy" decoding="async"></button></div>
+</div>
+
+<div class="block">
+<header class="shead"><span class="ghost" aria-hidden="true">Social Media Content</span><h2>Gulf Projects. UAE</h2></header>
+<p class="label">Instagram profile</p>
+<div class="links">
+<a class="lnk" href="https://www.instagram.com/le_cle_center?cplk=NXF1a2p4dWl3bHIy" target="_blank" rel="noopener"><span class="lk-l">Le Cle Center</span><span class="lk-u">instagram.com/le_cle_center</span><i aria-hidden="true">↗</i></a>
+<a class="lnk" href="https://www.instagram.com/bondandbloom.ae?psln=MW4wYzczOWxleDJoYw==" target="_blank" rel="noopener"><span class="lk-l">Bond &amp; Bloom</span><span class="lk-u">instagram.com/bondandbloom.ae</span><i aria-hidden="true">↗</i></a>
+<a class="lnk" href="https://www.instagram.com/alrafidainmc?psln=MTZlbnBxZDcwNTRpNg==" target="_blank" rel="noopener"><span class="lk-l">Al Rafidain MC</span><span class="lk-u">instagram.com/alrafidainmc</span><i aria-hidden="true">↗</i></a>
+</div></div>
+
+<div class="block">
+<header class="shead"><span class="ghost" aria-hidden="true">Social Media Content</span><h2>Cosmetics Marketing Strategy</h2></header>
+<div class="links" style="margin-bottom:24px">
+<a class="lnk" href="https://www.instagram.com/poshcosmetics.eg?cplk=MWw5Y2pqenZ1ZDliaw==" target="_blank" rel="noopener"><span class="lk-l">Instagram profile</span><span class="lk-u">instagram.com/poshcosmetics.eg</span><i aria-hidden="true">↗</i></a>
+<a class="lnk" href="https://drive.google.com/file/d/11hRh0k_kE3GogG_4kPQFACl3AKvliesD/view?usp=drivesdk" target="_blank" rel="noopener"><span class="lk-l">Marketing strategy link</span><span class="lk-u">Open the full strategy on Google Drive</span><i aria-hidden="true">↗</i></a>
+</div>
+<div class="grid g3"><button class="ph frame" type="button" data-full="img/p17-057.webp"><img src="img/p17-057.webp" alt="Posh Cosmetics marketing strategy slide" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p17-058.webp"><img src="img/p17-058.webp" alt="Posh Cosmetics marketing strategy slide" loading="lazy" decoding="async"></button><button class="ph frame" type="button" data-full="img/p17-059.webp"><img src="img/p17-059.webp" alt="Posh Cosmetics marketing strategy slide" loading="lazy" decoding="async"></button></div>
+</div>
+
+<div class="block">
+<header class="shead"><span class="ghost" aria-hidden="true">Social Media Content</span><h2>Blendo Projects. Libya</h2></header>
+<p class="label">Instagram profile</p>
+<div class="links" style="margin-bottom:10px"><a class="lnk" href="https://www.instagram.com/blendo.ly?srtk=bDNqZjJ4OHZ4ZXFp" target="_blank" rel="noopener"><span class="lk-l">Blendo</span><span class="lk-u">instagram.com/blendo.ly</span><i aria-hidden="true">↗</i></a></div>
+<p class="note">Blendo – Social Media Management &amp; Reel Scriptwriter - creative director</p>
+<div class="chips" style="margin-bottom:28px">
+<a class="chip" href="https://www.instagram.com/reel/DKR6vpFtsJl/?exln=MWd6MnozYnZtMjNmYw==" target="_blank" rel="noopener">Reel 1 ↗</a>
+<a class="chip" href="https://www.instagram.com/reel/DKFD0rJIiRL/?obrf=bnJiM3ZqbGJlYnR6" target="_blank" rel="noopener">Reel 2 ↗</a>
+<a class="chip" href="https://www.instagram.com/reel/DJ-ARgNpHbA/?mdxt=YWNrbjI4enBsemFu" target="_blank" rel="noopener">Reel 3 ↗</a>
+<a class="chip" href="https://www.instagram.com/reel/DJXRR3DMFhO/?vrfl=MWYwZ2RrdjB3cXFoZw==" target="_blank" rel="noopener">Reel 4 ↗</a>
+<a class="chip" href="https://www.instagram.com/reel/DKfItulMaKP/?rpxt=MWZqOGY4YTRnYTR0ZQ==" target="_blank" rel="noopener">Reel 5 ↗</a>
+</div>
+<div class="grid phones"><button class="ph " type="button" data-full="img/p19-062.webp"><img src="img/p19-062.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p19-063.webp"><img src="img/p19-063.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p19-064.webp"><img src="img/p19-064.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p19-065.webp"><img src="img/p19-065.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p20-067.webp"><img src="img/p20-067.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p20-068.webp"><img src="img/p20-068.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p20-069.webp"><img src="img/p20-069.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p20-070.webp"><img src="img/p20-070.webp" alt="Blendo Instagram feed" loading="lazy" decoding="async"></button></div>
+</div>
+
+<div class="block">
+<header class="shead"><span class="ghost" aria-hidden="true">Social Media Content</span><h2>SaaS Company</h2></header>
+<p class="label">Instagram profile</p>
+<div class="links" style="margin-bottom:24px"><a class="lnk" href="https://www.instagram.com/upklickapp?exln=MTM3cHpnMW03aXhqcQ==" target="_blank" rel="noopener"><span class="lk-l">UpKlick</span><span class="lk-u">instagram.com/upklickapp</span><i aria-hidden="true">↗</i></a></div>
+<div class="wide"><button class="ph " type="button" data-full="img/p21-072.webp"><img src="img/p21-072.webp" alt="Content calendar spreadsheet for the SaaS account" loading="lazy" decoding="async"></button></div>
+</div>
+</div></section>
+
+<section id="ai"><div class="wrap">
+<div class="ai-intro"><div>
+<header class="shead"><span class="ghost" aria-hidden="true">AI Visual Content</span><h2>AI Visual<br>Content</h2></header>
+<p class="tl">AI Projects</p>
+<p class="lead">This section highlights projects fully created with the support of AI-powered tools, showcasing how technology and creativity come together. Every piece presented here is my work from start to finish — beginning with the idea, moving through concept development, and ending with the final execution.</p>
+</div><button class="ph " type="button" data-full="img/p22-074.webp"><img src="img/p22-074.webp" alt="AI generated t-shirt on a city street" loading="lazy" decoding="async"></button></div>
+
+<article class="ai">
+<div class="ai-top"><div class="ai-copy"><h3>AI Photoshoot</h3><p>Professional visual project for an Egyptian accessories brand using AI only. No studio, no cameras — just AI-generated images that captured the brand’s essence with clarity and style.</p></div><div class="ai-heroes"><button class="ph " type="button" data-full="img/p23-076.webp"><img src="img/p23-076.webp" alt="AI photoshoot accessories" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p23-077.webp"><img src="img/p23-077.webp" alt="AI photoshoot accessories" loading="lazy" decoding="async"></button></div></div>
+<div class="ai-bottom"><div class="ai-view"><h4>You can view the full project through the links below.</h4><div class="chips"><a class="chip" href="https://www.instagram.com/reel/DMXw-3wtIjo/?igsh=MTVqdmg0NWlqeGxxdw==" target="_blank" rel="noopener">View 1 ↗</a><a class="chip" href="https://www.instagram.com/p/DMXlPlmtZ-N/?igsh=MTJrZ2FhcnN4MXh0aw==" target="_blank" rel="noopener">View 2 ↗</a><a class="chip" href="https://www.instagram.com/p/DMXjlZCt_sM/?igsh=YWJyN2d1eGc2Zm4z" target="_blank" rel="noopener">View 3 ↗</a></div></div><div class="grid g4"><button class="ph " type="button" data-full="img/p24-079.webp"><img src="img/p24-079.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-080.webp"><img src="img/p24-080.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-081.webp"><img src="img/p24-081.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-082.webp"><img src="img/p24-082.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-083.webp"><img src="img/p24-083.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-084.webp"><img src="img/p24-084.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-085.webp"><img src="img/p24-085.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p24-086.webp"><img src="img/p24-086.webp" alt="AI generated accessories photo" loading="lazy" decoding="async"></button></div></div>
+</article>
+<article class="ai">
+<div class="ai-top"><div class="ai-copy"><h3>AI Photoshoot</h3><p>Professional visual project for a clothing brand using AI only. No studio, no cameras — just AI-generated images that captured the brand’s essence with clarity and style.</p></div><div class="ai-heroes"><button class="ph " type="button" data-full="img/p25-088.webp"><img src="img/p25-088.webp" alt="AI photoshoot clothing" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p25-089.webp"><img src="img/p25-089.webp" alt="AI photoshoot clothing" loading="lazy" decoding="async"></button></div></div>
+<div class="ai-bottom"><div class="ai-view"><h4>You can view the full project through the links below.</h4><div class="chips"><a class="chip" href="https://www.instagram.com/reel/DMdDzABNqay/?igsh=d2RvMXpqa3ExaGtha" target="_blank" rel="noopener">View 1 ↗</a><a class="chip" href="https://www.instagram.com/reel/DMdZixStfvH/?igsh=b3UwZTdyYWdxdGZl" target="_blank" rel="noopener">View 2 ↗</a><a class="chip" href="https://www.instagram.com/reel/DMdagYvtrXY/?igsh=MWp5bXU1Y2JxdTQwdg==" target="_blank" rel="noopener">View 3 ↗</a></div></div><div class="grid g4"><button class="ph " type="button" data-full="img/p26-091.webp"><img src="img/p26-091.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-092.webp"><img src="img/p26-092.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-093.webp"><img src="img/p26-093.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-094.webp"><img src="img/p26-094.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-095.webp"><img src="img/p26-095.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-096.webp"><img src="img/p26-096.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-097.webp"><img src="img/p26-097.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p26-098.webp"><img src="img/p26-098.webp" alt="AI generated clothing photo" loading="lazy" decoding="async"></button></div></div>
+</article>
+<article class="ai">
+<div class="ai-top"><div class="ai-copy"><h3>AI Photoshoot</h3><p>A complete photoshoot created with AI technology — no cameras, models, or equipment involved. From concept to execution, this project showcases realistic and creative visuals tailored for a perfume brand.</p></div><div class="ai-heroes"><button class="ph " type="button" data-full="img/p27-100.webp"><img src="img/p27-100.webp" alt="AI photoshoot perfume" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p27-101.webp"><img src="img/p27-101.webp" alt="AI photoshoot perfume" loading="lazy" decoding="async"></button></div></div>
+<div class="ai-bottom"><div class="ai-view"><h4>You can view the full project through the links below.</h4><div class="chips"><a class="chip" href="https://www.instagram.com/reel/DMANtS1NoH_/?igsh=MWZ0and1M2d4a2cxbw==" target="_blank" rel="noopener">View 1 ↗</a><a class="chip" href="https://www.instagram.com/reel/DMANXzHNlQW/?igsh=MzEwMmYxem9yM25l" target="_blank" rel="noopener">View 2 ↗</a><a class="chip" href="https://www.instagram.com/reel/DMAMSvLNQSa/?igsh=NXV0dHViZ252bmJj" target="_blank" rel="noopener">View 3 ↗</a></div></div><div class="grid g4"><button class="ph " type="button" data-full="img/p28-103.webp"><img src="img/p28-103.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p28-104.webp"><img src="img/p28-104.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p28-105.webp"><img src="img/p28-105.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p28-106.webp"><img src="img/p28-106.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p28-107.webp"><img src="img/p28-107.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p28-108.webp"><img src="img/p28-108.webp" alt="AI generated perfume photo" loading="lazy" decoding="async"></button></div></div>
+</article>
+<article class="ai">
+<div class="ai-top"><div class="ai-copy"><h3>AI Photoshoot</h3><p>AI Café Menu Photoshoot – Created entirely with AI, from concept to execution, without cameras or props.</p></div><div class="ai-heroes"><button class="ph " type="button" data-full="img/p29-110.webp"><img src="img/p29-110.webp" alt="AI photoshoot cafe" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p29-111.webp"><img src="img/p29-111.webp" alt="AI photoshoot cafe" loading="lazy" decoding="async"></button></div></div>
+<div class="ai-bottom"><div class="ai-view"><h4>You can view the full project through the links below.</h4><div class="chips"><a class="chip" href="https://www.instagram.com/reel/DLf6zNNNv95/?igsh=MXh0cG5hZnB0enhsNg==" target="_blank" rel="noopener">View 1 ↗</a><a class="chip" href="https://www.instagram.com/reel/DLnSOqZtKRS/?igsh=ZW8yaTl2NjVqMDRl" target="_blank" rel="noopener">View 2 ↗</a><a class="chip" href="https://www.instagram.com/reel/DL10J6ttFN1/?igsh=MTN1ZjdrZWxkZzE4ag==" target="_blank" rel="noopener">View 3 ↗</a></div></div><div class="grid g4"><button class="ph " type="button" data-full="img/p30-113.webp"><img src="img/p30-113.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-114.webp"><img src="img/p30-114.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-115.webp"><img src="img/p30-115.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-116.webp"><img src="img/p30-116.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-117.webp"><img src="img/p30-117.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-118.webp"><img src="img/p30-118.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-119.webp"><img src="img/p30-119.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button><button class="ph " type="button" data-full="img/p30-120.webp"><img src="img/p30-120.webp" alt="AI generated cafe photo" loading="lazy" decoding="async"></button></div></div>
+</article>
+</div></section>
+
+<section id="clients"><div class="wrap">
+<header class="shead"><span class="ghost" aria-hidden="true">Content Projects</span><h2>Content Projects</h2></header>
+<p class="lead" style="margin-bottom:32px">Here are selected clients I’ve worked with. Each link showcases my role in content creation, social media management, and creative direction.</p>
+<div class="clients">
+<a class="cl" href="https://www.instagram.com/georgekolta?igsh=NzNscDc2dWl5dG8w" target="_blank" rel="noopener"><b>George Kolta</b><span>Content Creation &amp; Social Media Management - Media Coverage</span><small>instagram.com/georgekolta ↗</small></a>
+<a class="cl" href="https://www.instagram.com/sparkwave.uae?igsh=a2J2Y2w1M2pxeXhj" target="_blank" rel="noopener"><b>Spark Wave Media</b><span>Content Creator - Scriptwriter</span><small>instagram.com/sparkwave.uae ↗</small></a>
+<a class="cl" href="https://www.instagram.com/blendo.ly?igsh=bDNqZjJ4OHZ4ZXFp" target="_blank" rel="noopener"><b>Blendo</b><span>Social Media Management &amp; Reel Scriptwriter - creative director</span><small>instagram.com/blendo.ly ↗</small></a>
+<a class="cl" href="https://www.instagram.com/fnbpillars?igsh=MWV4NjY2NGx4dndlOQ==" target="_blank" rel="noopener"><b>F&amp;B Pillars</b><span>Content Creation - Scriptwriter</span><small>instagram.com/fnbpillars ↗</small></a>
+<a class="cl" href="https://www.instagram.com/ident_dental_clinic?igsh=MTJubXVlNTA2cHBqcA==" target="_blank" rel="noopener"><b>iDent Dental Clinic</b><span>Graphic Design &amp; Visual Content - Social Media Management</span><small>instagram.com/ident_dental_clinic ↗</small></a>
+<a class="cl" href="https://www.instagram.com/momendentaloffice?igsh=MzV3aGRtazJicGdw" target="_blank" rel="noopener"><b>Mo’men Dental Office</b><span>Social Media Management - Content Creation - Scriptwriter</span><small>instagram.com/momendentaloffice ↗</small></a>
+</div></div></section>
+
+<section id="contact"><div class="wrap contact">
+<header class="shead"><span class="ghost" aria-hidden="true">Contact Me</span><h2>Contact Me</h2></header>
+<div class="cdet">
+<div><b>Phone Number</b><span id="ph">010 14 781 782</span><br><button class="copy" type="button" data-c="01014781782">Copy</button></div>
+<div><b>Email Address</b><span id="em">marinanady834@gmail.com</span><br><button class="copy" type="button" data-c="marinanady834@gmail.com">Copy</button></div>
+</div></div></section>
+
+<div class="thanks"><div class="wrap"><h2>Thank You</h2>
+<p>Thank you for taking the time to explore my portfolio. I hope it gave you a clear insight into my skills, creativity, and passion for content creation and digital marketing. I’m always excited about new opportunities to collaborate, create, and bring ideas to life.</p></div></div>
+<footer class="foot"><div class="wrap">© 2026 Marina Nady Gerges · <a href="#home">Back to top ↑</a></div></footer>
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer"><button class="x" type="button" aria-label="Close">✕</button><button class="p" type="button" aria-label="Previous">❮</button><img alt=""><button class="n" type="button" aria-label="Next">❯</button></div>
+
+<script>
+(function(){
+  var lb=document.getElementById('lb'),im=lb.querySelector('img'),list=[],i=0;
+  function all(scope){return Array.prototype.slice.call(scope.querySelectorAll('.ph'));}
+  function show(n){i=(n+list.length)%list.length;im.src=list[i].dataset.full;im.alt=list[i].querySelector('img').alt;}
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('.ph');
+    if(b){var sc=b.closest('.block,.ai,.ai-intro,section')||document;list=all(sc);i=list.indexOf(b);show(i);lb.classList.add('on');return;}
+    if(e.target.closest('.x')||e.target===lb){lb.classList.remove('on');}
+    else if(e.target.closest('.p')){show(i-1);}
+    else if(e.target.closest('.n')){show(i+1);}
+    var c=e.target.closest('.copy');
+    if(c){var t=c.dataset.c,old=c.textContent;
+      function ok(){c.textContent='Copied';setTimeout(function(){c.textContent=old;},1400);}
+      function fb(){var s=window.getSelection(),r=document.createRange(),el=c.previousElementSibling&&c.previousElementSibling.previousElementSibling;if(el){r.selectNodeContents(el);s.removeAllRanges();s.addRange(r);}c.textContent='Press Ctrl+C';}
+      try{navigator.clipboard.writeText(t).then(ok,fb);}catch(_){fb();}
+    }
+  });
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('on'))return;
+    if(e.key==='Escape')lb.classList.remove('on');
+    if(e.key==='ArrowLeft')show(i-1);
+    if(e.key==='ArrowRight')show(i+1);
+  });
+})();
+</script>
+
+</body>
+</html>
